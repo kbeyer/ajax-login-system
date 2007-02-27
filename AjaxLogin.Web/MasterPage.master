@@ -1,0 +1,22 @@
+<%@ Master Language="C#" AutoEventWireup="false" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>SnipGen.com, your source for simple AJAX web snippets.</title>
+    <link href="SnipThemes/default/styles-global.css" rel="stylesheet" type="text/css" />
+    <link href="SnipThemes/default/skins/Skin-LoginStatusControl.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server" />
+    
+    <Snip:LoginStatus ID="loginStatus" runat="server" />
+    
+    <div>
+        <asp:contentplaceholder id="CenterContent" runat="server">
+        </asp:contentplaceholder>
+    </div>
+    </form>
+</body>
+</html>

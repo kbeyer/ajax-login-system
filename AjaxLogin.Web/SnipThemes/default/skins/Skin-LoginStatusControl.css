@@ -1,0 +1,161 @@
+﻿.empty
+{
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+	Styles for LoginStatusControl
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#login-status-wrapper
+{
+	font-size: .9em;
+	/*letter-spacing:0.02em;*/
+	position:absolute; 
+	top:0px; 
+	left:0px;
+	padding:0px;
+	width:100%;
+}
+#login-status-bar
+{
+	font-size: .9em;
+	font-weight:bold;
+	letter-spacing:inherit;
+	width: 100%;
+	opacity: 0.95;
+	filter: alpha(opacity=95);
+	background-color: #eeeeee;
+	padding:5px;
+	border-bottom: solid 1px #b1b1b1;
+}
+#login-status-bar a
+{	
+	font-weight:bold;
+	text-decoration:underline;
+}
+#login-status-bar a:hover
+{		
+	text-decoration:none;
+}
+#register_control
+{
+	width: 208px;
+	border: solid 1px #525252;
+	opacity:0.95;
+	filter: alpha(opacity=95);
+	background-color:#ffffff;
+	margin-left:5px;
+}
+#login_control
+{
+	width: 208px;
+	border: solid 1px #525252;
+	opacity:0.95;
+	filter: alpha(opacity=95);
+	background-color:#ffffff;
+	margin-left:5px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+	FORMS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#login-status-wrapper .form-content
+{
+	padding:10px 15px 10px 15px;
+}
+#login-status-wrapper .form-content input
+{
+	margin-bottom:5px;
+}
+#login-status-wrapper .form-content a
+{	
+	font-weight:bold;
+	color:#525252;
+	text-decoration:underline;
+	padding-bottom:3px;
+}
+#login-status-wrapper .form-content a:hover
+{		
+	text-decoration:none;
+}
+#login-status-wrapper .form-title
+{
+	/*border: solid 1px #b1b1b1;*/
+	background-color:#b1b1b1;
+	padding:5px;
+	font-weight:bold;
+	color:#ffffff;
+	height:1.0em;
+}
+#login-status-wrapper .form-title a
+{	
+	color:#ffffff;
+	text-decoration:none;
+}
+#login-status-wrapper .form-title a:hover
+{	
+	color:#ffffff;
+	background-color:#525252;
+}
+#login-status-wrapper .form-status
+{
+	display:none;
+	padding: 3px;
+	color: #fff;
+	font-weight: bold;
+	background-color:#b1b1b1;
+}
+#login-status-wrapper input
+{
+	padding: 3px;
+	color: #525252;
+	font-weight: bold;
+}
+#login-status-wrapper input.button
+{
+	width: 100%;
+}
+#login-status-wrapper .form-focus
+{
+	background-color: #e6ffd9;
+	border-style: inset;
+	color: #000;
+	width: inherit;
+}
+#login-status-wrapper .form-blur
+{
+	width: inherit;
+}
+#login-status-wrapper input.checkbox-middle
+{
+	vertical-align: middle;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+	COMMON
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#login-status-wrapper .float-right
+{
+	float:right;
+}
+#login-status-wrapper .float-left
+{
+	float:left;
+}
+#login-status-wrapper .clear
+{
+	clear:both;
+}
+#login-status-wrapper .bad
+{
+	background-color:#BF0000;
+}
+#login-status-wrapper .good
+{
+	background-color:#6D8361;	
+}
+#login-status-wrapper .ok
+{
+	background-color:#b1b1b1;	
+}

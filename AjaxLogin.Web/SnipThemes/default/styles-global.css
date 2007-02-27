@@ -1,0 +1,61 @@
+﻿body
+{
+	font-family: Cambria,Georgia,Palatino,Palatino Linotype,Myriad Pro,Serif;
+	margin: 8px 0 30px 0;
+	background: url(./images/napkin.png) no-repeat center center;
+}
+
+/* remove browser default borders on all linked images */
+a img
+{
+	border-width: 0;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+	FONT-SIZES - LINE HEIGHTS - P MARGIN & PADDING
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/* Firefox and probubly IE7 will add extra padding to first 
+child <p> and <h2> tags of divs. So we remove them below.
+Only FireFox and probubly IE7 use this rule */
+div > p:first-child
+{
+	margin-top: 0;
+}
+
+p, legend, .p
+{
+	font-size: .9em;
+}
+
+h1
+{
+	font-size:1.5em;
+	letter-spacing:-0.1em;
+}
+
+h2
+{
+	font-size:1.2em;
+	letter-spacing:-0.05em;
+}
+h3
+{
+	font-size:1.1em;
+	letter-spacing:normal;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+	CUSTOM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.right
+{
+	float:right;
+}
+.secure-link
+{
+	text-align:right;
+	margin: 50px 0 30px 200px;
+}
